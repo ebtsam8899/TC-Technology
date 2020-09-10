@@ -1,0 +1,4471 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_amap
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-15 11:25+0000\n"
+"PO-Revision-Date: 2020-03-15 11:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: base_amap
+#: model_terms:ir.ui.view,arch_db:base_amap.res_config_settings_view_form
+msgid "<i class=\"fa fa-arrow-right\"/> Generate an API Key"
+msgstr "<i class=\"fa fa-arrow-right\"/> 获取 API Key"
+
+#. module: base_amap
+#: model_terms:ir.ui.view,arch_db:base_amap.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Integrate Amap Server</span>"
+msgstr "<span class=\"o_form_label\">高德服务集成</span>"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__active
+msgid "Active"
+msgstr "有效"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_res_config_settings__amap_api_key
+msgid "Amap API Key"
+msgstr "高德 API Key"
+
+#. module: base_amap
+#: model:ir.actions.act_window,name:base_amap.action_base_amap_poi_category
+#: model_terms:ir.ui.view,arch_db:base_amap.view_base_amap_poi_category_tree
+msgid "Amap POI Categories"
+msgstr "高德POI类型"
+
+#. module: base_amap
+#: model_terms:ir.ui.view,arch_db:base_amap.view_base_amap_poi_category_form
+#: model_terms:ir.ui.view,arch_db:base_amap.view_base_amap_poi_category_search
+msgid "Amap POI Category"
+msgstr "高德POI类型"
+
+#. module: base_amap
+#: model:ir.model,name:base_amap.model_base_amap_poi_category
+msgid "Amap Point of Information Types"
+msgstr "高德POI类型"
+
+#. module: base_amap
+#: model:ir.model,name:base_amap.model_base_amap_server
+msgid "Amap Service"
+msgstr "高德服务"
+
+#. module: base_amap
+#: model_terms:ir.ui.view,arch_db:base_amap.view_base_amap_poi_category_search
+msgid "Archive"
+msgstr "归档"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__child_ids
+msgid "Child Categories"
+msgstr "子类型"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__code
+msgid "Code"
+msgstr "代码"
+
+#. module: base_amap
+#: model:ir.model,name:base_amap.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__display_name
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_server__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: base_amap
+#: model_terms:ir.ui.view,arch_db:base_amap.view_base_amap_poi_category_search
+msgid "Group By"
+msgstr "分组"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__id
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_server__id
+msgid "ID"
+msgstr ""
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category____last_update
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_server____last_update
+msgid "Last Modified on"
+msgstr "最近修改时间"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__write_uid
+msgid "Last Updated by"
+msgstr "最近更新人"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__write_date
+msgid "Last Updated on"
+msgstr "最近更新时间"
+
+#. module: base_amap
+#: model_terms:ir.ui.view,arch_db:base_amap.res_config_settings_view_form
+msgid "Manage POI"
+msgstr "管理POI类型"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__name
+msgid "Name"
+msgstr "名称"
+
+#. module: base_amap
+#: model_terms:ir.ui.view,arch_db:base_amap.view_base_amap_poi_category_search
+msgid "Parent"
+msgstr "父级类型"
+
+#. module: base_amap
+#: model:ir.model.fields,field_description:base_amap.field_base_amap_poi_category__parent_id
+msgid "Parent Category"
+msgstr "父级类型"
+
+#. module: base_amap
+#: model_terms:ir.ui.view,arch_db:base_amap.view_base_amap_poi_category_search
+msgid "Show archive categories"
+msgstr "显示已归档类型"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060201
+msgid "7-ELEVEn"
+msgstr "7-ELEVEn便利店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090101
+msgid "AAA Class Hospital"
+msgstr "三级甲等医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160127
+msgid "ABN AMRO Bank"
+msgstr "荷兰银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160324
+msgid "ABN AMRO Bank ATM"
+msgstr "荷兰银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160129
+msgid "AIG Private Bank"
+msgstr "瑞士友邦银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160326
+msgid "AIG Private Bank ATM"
+msgstr "瑞士友邦银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160300
+msgid "ATM"
+msgstr "自动提款机"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220202
+msgid "Accident"
+msgstr "事故灾难"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_100000
+msgid "Accommodation Service Related"
+msgstr "住宿服务相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070702
+msgid "Accounting Firm"
+msgstr "会计师事务所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030303
+msgid "Acura Repair"
+msgstr "本田讴歌维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020203
+msgid "Acura Sales"
+msgstr "本田讴歌销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010401
+msgid "Add Water Station"
+msgstr "加水站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190400
+msgid "Address Sign"
+msgstr "门牌信息"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130701
+msgid "Administration for Industry & Commerce"
+msgstr "工商部门"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141205
+msgid "Adult Education"
+msgstr "成人教育"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170201
+msgid "Advertisement and Decoration"
+msgstr "广告装饰"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071600
+msgid "Agency"
+msgstr "中介机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160107
+msgid "Agricultural Bank of China"
+msgstr "中国农业银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160304
+msgid "Agricultural Bank of China ATM"
+msgstr "中国农业银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060703
+msgid "Agricultural Products Market"
+msgstr "农副产品市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070301
+msgid "Airline Tickets Office"
+msgstr "飞机票代售点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150104
+msgid "Airport"
+msgstr "飞机场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150703
+msgid "Airport Bus"
+msgstr "机场巴士"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150105
+msgid "Airport Departure/Arrival"
+msgstr "机场出发/到达"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150107
+msgid "Airport Freight Station"
+msgstr "机场货运处"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150100
+msgid "Airport Related"
+msgstr "机场相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031501
+msgid "Alfa Romeo Repair"
+msgstr "阿尔法-罗密欧维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021401
+msgid "Alfa Romeo Sales"
+msgstr "阿尔法-罗密欧销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160128
+msgid "American Express Bank"
+msgstr "美国运通银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160325
+msgid "American Express Bank ATM"
+msgstr "美国运通银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050208
+msgid "American Food"
+msgstr "美式风味"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080501
+msgid "Amusement Park"
+msgstr "游乐场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050109
+msgid "Anhui Food"
+msgstr "安徽菜(徽菜)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061201
+msgid "Antique Shop"
+msgstr "古玩字画店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110104
+msgid "Aquarium"
+msgstr "水族馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140900
+msgid "Archives Hall"
+msgstr "档案馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140400
+msgid "Art Gallery"
+msgstr "美术馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220104
+msgid "Art Performance"
+msgstr "文艺演出"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141000
+msgid "Arts Organization"
+msgstr "文艺团体"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061301
+msgid "Auction House"
+msgstr "拍卖行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140101
+msgid "Audi Museum"
+msgstr "奥迪博物馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030400
+msgid "Audi Repair"
+msgstr "奥迪维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020300
+msgid "Audi Sales"
+msgstr "奥迪销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070704
+msgid "Audit Firm"
+msgstr "审计事务所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070705
+msgid "Authentication Services"
+msgstr "认证事务所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010600
+msgid "Automobile Club"
+msgstr "汽车俱乐部"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030100
+msgid "Automobile Comprehensive Repair"
+msgstr "汽车综合维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010400
+msgid "Automobile Maintenance"
+msgstr "汽车养护"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010800
+msgid "Automobile Parts Sales"
+msgstr "汽车配件销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010900
+msgid "Automobile Rental"
+msgstr "汽车租赁"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030000
+msgid "Automobile Repair"
+msgstr "汽车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010700
+msgid "Automobile Rescue"
+msgstr "汽车救援"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020000
+msgid "Automobile Sales"
+msgstr "汽车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010000
+msgid "Automobile Service Related"
+msgstr "汽车服务相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_033300
+msgid "BAIC MOTOR Repair"
+msgstr "北京汽车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_023200
+msgid "BAIC MOTOR Sales"
+msgstr "北京汽车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061213
+msgid "BMW Lifestyle"
+msgstr "宝马生活方式"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030701
+msgid "BMW MINI Repair"
+msgstr "宝马MINI维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020601
+msgid "BMW MINI Sales"
+msgstr "宝马MINI销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_040201
+msgid "BMW Motorcycle Repair"
+msgstr "宝马摩托车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_040101
+msgid "BMW Motorcycle Sales"
+msgstr "宝马摩托车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030700
+msgid "BMW Repair"
+msgstr "宝马维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020600
+msgid "BMW Sales"
+msgstr "宝马销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010108
+msgid "BP PetroChina"
+msgstr "中石油碧辟"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010109
+msgid "BP Sinopec"
+msgstr "中石化碧辟"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_072001
+msgid "Baby Natatorium"
+msgstr "婴儿游泳馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_072000
+msgid "Baby Service Place"
+msgstr "婴儿服务场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080118
+msgid "Badminton Court"
+msgstr "羽毛球场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050800
+msgid "Bakery"
+msgstr "糕饼店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160100
+msgid "Bank"
+msgstr "银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160200
+msgid "Bank Related"
+msgstr "银行相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160130
+msgid "Bank of America"
+msgstr "美国银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160327
+msgid "Bank of America ATM"
+msgstr "美国银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160119
+msgid "Bank of Beijing"
+msgstr "北京银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160316
+msgid "Bank of Beijing ATM"
+msgstr "北京银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160104
+msgid "Bank of China"
+msgstr "中国银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160301
+msgid "Bank of China ATM"
+msgstr "中国银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160108
+msgid "Bank of Communications"
+msgstr "交通银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160305
+msgid "Bank of Communications ATM"
+msgstr "交通银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160123
+msgid "Bank of East Asia"
+msgstr "东亚银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160320
+msgid "Bank of East Asia ATM"
+msgstr "东亚银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160131
+msgid "Bank of Montreal"
+msgstr "蒙特利尔银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160328
+msgid "Bank of Montreal ATM"
+msgstr "蒙特利尔银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160132
+msgid "Bank of New York"
+msgstr "纽约银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160329
+msgid "Bank of New York ATM"
+msgstr "纽约银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160114
+msgid "Bank of Shanghai"
+msgstr "上海银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160311
+msgid "Bank of Shanghai ATM"
+msgstr "上海银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160136
+msgid "Bank of Tokyo-Mitsubishi UFJ"
+msgstr "日本三菱东京日联银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160333
+msgid "Bank of Tokyo-Mitsubishi UFJ ATM"
+msgstr "日本三菱东京日联银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160137
+msgid "Barclays Bank"
+msgstr "巴克莱银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160334
+msgid "Barclays Bank ATM"
+msgstr "巴克莱银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080104
+msgid "Basketball Stadium"
+msgstr "篮球场馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071400
+msgid "Bath & Massage Center"
+msgstr "洗浴推拿场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110208
+msgid "Beach"
+msgstr "海滩"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071100
+msgid "Beauty and Hairdressing Store"
+msgstr "美容美发店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035600
+msgid "Beiben Trucks Repair"
+msgstr "北奔重汽维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025600
+msgid "Beiben Trucks Sales"
+msgstr "北奔重汽销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050111
+msgid "Beijing Food"
+msgstr "北京菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060404
+msgid "Beijing Hualian"
+msgstr "北京华联"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031702
+msgid "Beijing Hyundai Repair"
+msgstr "北京现代维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021602
+msgid "Beijing Hyundai Sales"
+msgstr "北京现代销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160149
+msgid "Beijing Rural Commercial Bank"
+msgstr "北京农商银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160346
+msgid "Beijing Rural Commercial Bank ATM"
+msgstr "北京农商银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130106
+msgid "Below Town level Government and Institution"
+msgstr "乡镇以下级政府及事业单位"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030205
+msgid "Bentley Repair"
+msgstr "宾利维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020105
+msgid "Bentley Sales"
+msgstr "宾利销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061208
+msgid "Bike Shop"
+msgstr "自行车专卖店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061205
+msgid "Bookstore"
+msgstr "书店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_151000
+msgid "Border Crossing"
+msgstr "过境口岸"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110103
+msgid "Botanical Garden"
+msgstr "植物园"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080102
+msgid "Bowling Hall"
+msgstr "保龄球馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090208
+msgid "Brain Hospital"
+msgstr "脑科医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061104
+msgid "Brand Bags and Suitcases Store"
+msgstr "品牌箱包店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061101
+msgid "Brand Clothing Store"
+msgstr "品牌服装店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061103
+msgid "Brand Leather Ware Store"
+msgstr "品牌皮具店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061102
+msgid "Brand Shoes Store"
+msgstr "品牌鞋店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050215
+msgid "Brazilian Food"
+msgstr "巴西菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190307
+msgid "Bridge"
+msgstr "桥"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050210
+msgid "British Food"
+msgstr "英国式菜品餐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110205
+msgid "Buddhist & Taoist Temple"
+msgstr "寺庙道观"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030502
+msgid "Buick Repair"
+msgstr "别克维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020402
+msgid "Buick Sales"
+msgstr "别克销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190403
+msgid "Building Number"
+msgstr "楼栋号"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120200
+msgid "Building Related"
+msgstr "楼宇相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070305
+msgid "Bus IC Card"
+msgstr "公交卡/月票代售点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150700
+msgid "Bus Station Related"
+msgstr "公交车站相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120201
+msgid "Business Office Building"
+msgstr "商务写字楼"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035800
+msgid "CAMC Repair"
+msgstr "华菱星马维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025800
+msgid "CAMC Sales"
+msgstr "华菱星马销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061206
+msgid "CD/DVD Shop"
+msgstr "音像店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160120
+msgid "CGB"
+msgstr "广发银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160317
+msgid "CGB ATM"
+msgstr "广发银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060403
+msgid "CRC"
+msgstr "华润"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030501
+msgid "Cadillac Repair"
+msgstr "凯迪拉克维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020401
+msgid "Cadillac Sales"
+msgstr "凯迪拉克销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050306
+msgid "Cafe de Coral"
+msgstr "大家乐"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010105
+msgid "Caltex"
+msgstr "加德士"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180101
+msgid "Camera"
+msgstr "摄像头"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061212
+msgid "Camera Shop"
+msgstr "摄影器材店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080504
+msgid "Camping Site"
+msgstr "露营地"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050103
+msgid "Cantonese Food"
+msgstr "广东菜(粤菜)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010500
+msgid "Car Wash"
+msgstr "洗车场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080306
+msgid "Card & Chess Room"
+msgstr "棋牌室"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060401
+msgid "Carrefour"
+msgstr "家乐福"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071901
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071902
+msgid "Cemetery"
+msgstr "陵园"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_033100
+msgid "Chang'an Repair"
+msgstr "长安汽车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_023000
+msgid "Chang'an Sales"
+msgstr "长安汽车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050123
+msgid "Chaozhou Food"
+msgstr "潮州菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_011100
+msgid "Charging Station"
+msgstr "充电站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130408
+msgid "Charity Organizations"
+msgstr "慈善机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170205
+msgid "Chemical and Metallurgy"
+msgstr "冶金化工"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035900
+msgid "Chengdu Dayun Automotive Repair"
+msgstr "成都大运汽车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025900
+msgid "Chengdu Dayun Automotive Sales"
+msgstr "成都大运汽车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032500
+msgid "Chery Repair"
+msgstr "奇瑞维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022400
+msgid "Chery Sales"
+msgstr "奇瑞销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090205
+msgid "Chest Hospital"
+msgstr "胸科医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030503
+msgid "Chevrolet Repair"
+msgstr "雪佛兰维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020403
+msgid "Chevrolet Sales"
+msgstr "雪佛兰销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061207
+msgid "Children's Store"
+msgstr "儿童用品店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160111
+msgid "China CITIC Bank"
+msgstr "中信银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160308
+msgid "China CITIC Bank ATM"
+msgstr "中信银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160147
+msgid "China CITIC Bank International"
+msgstr "中信银行(国际)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160344
+msgid "China CITIC Bank International ATM"
+msgstr "中信银行(国际)ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160106
+msgid "China Construction Bank"
+msgstr "中国建设银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160303
+msgid "China Construction Bank ATM"
+msgstr "中国建设银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160102
+msgid "China Development Bank"
+msgstr "国家开发银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160113
+msgid "China Everbright Bank"
+msgstr "中国光大银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160310
+msgid "China Everbright Bank ATM"
+msgstr "中国光大银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160402
+msgid "China Life Insurance Company"
+msgstr "中国人寿保险公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160109
+msgid "China Merchants Bank"
+msgstr "招商银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160306
+msgid "China Merchants Bank ATM"
+msgstr "招商银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160112
+msgid "China Minsheng Bank"
+msgstr "中国民生银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160309
+msgid "China Minsheng Bank ATM"
+msgstr "中国民生银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070610
+msgid "China Mobile Hong Kong"
+msgstr "中国移动香港"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070603
+msgid "China Mobile Office"
+msgstr "中国移动营业厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160405
+msgid "China Pacific Insurance Company"
+msgstr "中国太平洋保险"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160404
+msgid "China Reinsurance Company"
+msgstr "中国再保险公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070606
+msgid "China Satcom Office"
+msgstr "中国卫通营业厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070601
+msgid "China Telecom Office"
+msgstr "中国电信营业厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070605
+msgid "China Tietong Office"
+msgstr "中国铁通营业厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070604
+msgid "China Unicom Office"
+msgstr "中国联通营业厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050100
+msgid "Chinese Food Restaurant"
+msgstr "中餐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160145
+msgid "Chong Hing Bank"
+msgstr "创兴银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160342
+msgid "Chong Hing Bank ATM"
+msgstr "创兴银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032600
+msgid "Chrysler Repair"
+msgstr "克莱斯勒维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022500
+msgid "Chrysler Sales"
+msgstr "克莱斯勒销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110206
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130409
+msgid "Church"
+msgstr "教堂"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080601
+msgid "Cinema"
+msgstr "电影院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060202
+msgid "Circle K"
+msgstr "OK便利店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160124
+msgid "Citibank"
+msgstr "花旗银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160321
+msgid "Citibank ATM"
+msgstr "花旗银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031300
+msgid "Citroen Repair"
+msgstr "雪铁龙维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021200
+msgid "Citroen Sales"
+msgstr "雪铁龙销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190500
+msgid "City Center"
+msgstr "城市中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220203
+msgid "City News"
+msgstr "城市新闻"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110105
+msgid "City Plaza"
+msgstr "城市广场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090300
+msgid "Clinic"
+msgstr "诊所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061100
+msgid "Clothing Store"
+msgstr "服装鞋帽皮具店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150400
+msgid "Coach Station"
+msgstr "长途汽车站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070303
+msgid "Coach Ticket Office"
+msgstr "长途汽车票代售点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050500
+msgid "Coffee House"
+msgstr "咖啡厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120000
+msgid "Commercial House Related"
+msgstr "商务住宅相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061000
+msgid "Commercial Street"
+msgstr "特色商业街"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170207
+msgid "Commercial Trade"
+msgstr "商业贸易"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120203
+msgid "Commercial-residential Building"
+msgstr "商住两用楼宇"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150702
+msgid "Common Bus Station"
+msgstr "普通公交站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130401
+msgid "Communist Youth League"
+msgstr "共青团"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120304
+msgid "Community Center"
+msgstr "社区中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150800
+msgid "Commuter Bus Station"
+msgstr "班车站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170200
+msgid "Company"
+msgstr "公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050101
+msgid "Complex Food"
+msgstr "综合酒楼"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060301
+msgid "Comprehensive Home Electronics Shopping Center"
+msgstr "综合家电商场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060700
+msgid "Comprehensive Market"
+msgstr "综合市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080602
+msgid "Concert Hall"
+msgstr "音乐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220105
+msgid "Conference"
+msgstr "大型会议"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170202
+msgid "Construction Company"
+msgstr "建筑公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130406
+msgid "Consumers' Association"
+msgstr "消费者协会"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060200
+msgid "Convenience Store"
+msgstr "便民商店/便利店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140300
+msgid "Convention & Exhibition Center"
+msgstr "会展中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220102
+msgid "Convention & Exposition"
+msgstr "展会展览"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190101
+msgid "Country Name"
+msgstr "国家名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130503
+msgid "Court"
+msgstr "法院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140800
+msgid "Cultural Palace"
+msgstr "文化宫"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160140
+msgid "DBS"
+msgstr "香港星展银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160337
+msgid "DBS ATM"
+msgstr "香港星展银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032300
+msgid "DFM Repair"
+msgstr "东风维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022200
+msgid "DFM Sales"
+msgstr "东风销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031303
+msgid "DS Repair"
+msgstr "DS维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021203
+msgid "DS Sales"
+msgstr "DS销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030508
+msgid "Daewoo Repair"
+msgstr "大宇维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020408
+msgid "Daewoo Sales"
+msgstr "大宇销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160146
+msgid "Dah Sing Bank"
+msgstr "大新银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160343
+msgid "Dah Sing Bank ATM"
+msgstr "大新银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031104
+msgid "Daihatsu Repair"
+msgstr "大发维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021004
+msgid "Daihatsu Sales"
+msgstr "大发销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070000
+msgid "Daily Life Service Place"
+msgstr "生活服务场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060303
+msgid "Dazhong"
+msgstr "大中"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060605
+msgid "Deco Cloth Store"
+msgstr "布艺市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130300
+msgid "Democratic Party"
+msgstr "民主党派"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150101
+msgid "Departure Lounge"
+msgstr "候机室"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050900
+msgid "Dessert House"
+msgstr "甜品店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160135
+msgid "Deutsche Bank"
+msgstr "德意志银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160332
+msgid "Deutsche Bank ATM"
+msgstr "德意志银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060306
+msgid "Digital Electronics"
+msgstr "数码电子"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130404
+msgid "Disabled Persons' Federation"
+msgstr "残联"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080303
+msgid "Disco"
+msgstr "迪厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090500
+msgid "Disease Prevention"
+msgstr "疾病预防"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130104
+msgid "District & County Level Government and Institution"
+msgstr "区县级政府及事业单位"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190105
+msgid "District/County-level Place Name"
+msgstr "区县级地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032602
+msgid "Dodge Repair"
+msgstr "道奇维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022502
+msgid "Dodge Sales"
+msgstr "道奇销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031302
+msgid "Dongfeng Citroen Repair"
+msgstr "东风雪铁龙维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021201
+msgid "Dongfeng Citroen Sales"
+msgstr "东风雪铁龙销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030302
+msgid "Dongfeng Honda Repair"
+msgstr "东风本田维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020202
+msgid "Dongfeng Honda Sales"
+msgstr "东风本田销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030802
+msgid "Dongfeng Nissan Repair"
+msgstr "东风日产维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020701
+msgid "Dongfeng Nissan Sales"
+msgstr "东风日产销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031301
+msgid "Dongfeng Peugeot Repair"
+msgstr "东风标致维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021202
+msgid "Dongfeng Peugeot Sales"
+msgstr "东风标致销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035100
+msgid "Dongfeng Truck Repair"
+msgstr "东风货车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025100
+msgid "Dongfeng Truck Sales"
+msgstr "东风货车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031802
+msgid "Dongfeng Yueda KIA Repair"
+msgstr "东风悦达起亚维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021702
+msgid "Dongfeng Yueda KIA Sales"
+msgstr "东风悦达起亚销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120303
+msgid "Dormitory"
+msgstr "宿舍"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141500
+msgid "Driving School"
+msgstr "驾校"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060103
+msgid "Duty-free Shop"
+msgstr "免税品店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090204
+msgid "ENT Hospital"
+msgstr "耳鼻喉医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010111
+msgid "ESSO"
+msgstr "埃索"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_100105
+msgid "Economical Chain Hotel"
+msgstr "经济型连锁酒店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071000
+msgid "Electric Supply Service Office"
+msgstr "电力营业厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141203
+msgid "Elementary School"
+msgstr "小学"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220200
+msgid "Emergency"
+msgstr "突发事件"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090400
+msgid "Emergency Center"
+msgstr "急救中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_200400
+msgid "Emergency Shelter"
+msgstr "紧急避难场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150207
+msgid "Endorse the Ticket"
+msgstr "改签"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070203
+msgid "Enquire of Baggage"
+msgstr "行李查询/行李问询"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070202
+msgid "Enquire of Hotel"
+msgstr "旅馆问讯"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170000
+msgid "Enterprises"
+msgstr "公司企业"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070703
+msgid "Evaluation Firm"
+msgstr "评估事务所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140200
+msgid "Exhibition Hall"
+msgstr "展览馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150203
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150501
+msgid "Exit"
+msgstr "出站口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070401
+msgid "Express Post"
+msgstr "邮政速递"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190305
+msgid "Expressway Entrance"
+msgstr "高速路入口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190304
+msgid "Expressway Exit"
+msgstr "高速路出口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180301
+msgid "Expressway Filling Station Service Area"
+msgstr "高速加油站服务区"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180302
+msgid "Expressway Parking Area"
+msgstr "高速停车区"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180300
+msgid "Expressway Service Area"
+msgstr "高速服务区"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180201
+msgid "Expressway Toll Gate"
+msgstr "高速收费站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035300
+msgid "FAW Jiefang Repair"
+msgstr "一汽解放维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025300
+msgid "FAW Jiefang Sales"
+msgstr "一汽解放销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030401
+msgid "FAW-Audi Repair"
+msgstr "一汽-大众奥迪维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020301
+msgid "FAW-Audi Sales"
+msgstr "一汽-大众奥迪销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031101
+msgid "FAW-Toyota Repair"
+msgstr "一汽丰田维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021001
+msgid "FAW-Toyota Sales"
+msgstr "一汽丰田销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030202
+msgid "FAW-Volkswagen Repair"
+msgstr "一汽-大众维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020102
+msgid "FAW-Volkswagen Sales"
+msgstr "一汽-大众销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010107
+msgid "FEOSO"
+msgstr "东方"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141207
+msgid "Facilities within the School"
+msgstr "学校内部设施"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110106
+msgid "Facilities within the park"
+msgstr "公园内部设施"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170300
+msgid "Factory"
+msgstr "工厂"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050307
+msgid "Fairwood"
+msgstr "大快活"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170100
+msgid "Famous Enterprise"
+msgstr "知名企业"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170402
+msgid "Farm"
+msgstr "农场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050300
+msgid "Fast Food Restaurant"
+msgstr "快餐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_200302
+msgid "Female Toilet"
+msgstr "女洗手间"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031600
+msgid "Ferrari Repair"
+msgstr "法拉利维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021500
+msgid "Ferrari Sales"
+msgstr "法拉利销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_151200
+msgid "Ferry Station"
+msgstr "轮渡站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150303
+msgid "Ferry Terminal"
+msgstr "人渡口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150302
+msgid "Ferry Terminal for Vehicle"
+msgstr "车渡口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070304
+msgid "Ferry Ticket Office"
+msgstr "船票代售点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220101
+msgid "Festival Celebration"
+msgstr "节日庆典"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031500
+msgid "Fiat Repair"
+msgstr "菲亚特维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021400
+msgid "Fiat Sales"
+msgstr "菲亚特销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010100
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010300
+msgid "Filling Station"
+msgstr "加油站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160000
+msgid "Finance & Insurance Institution"
+msgstr "金融保险机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160600
+msgid "Finance Company"
+msgstr "财务公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130504
+msgid "Fire Fighting Organization"
+msgstr "消防机关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170401
+msgid "Fishing Farm"
+msgstr "渔场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080502
+msgid "Fishing Spot"
+msgstr "垂钓园"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_100102
+msgid "Five-star Hotel"
+msgstr "五星级宾馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060702
+msgid "Flea Market"
+msgstr "旧货市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170408
+msgid "Flower Nurserey Base"
+msgstr "花卉苗圃基地"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060501
+msgid "Flower Shop"
+msgstr "花卉市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050000
+msgid "Food & Beverages Related"
+msgstr "餐饮相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080105
+msgid "Football Field"
+msgstr "足球场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031900
+msgid "Ford Repair"
+msgstr "福特维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021800
+msgid "Ford Sales"
+msgstr "福特销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130201
+msgid "Foreign Embassy and Consulate"
+msgstr "外国使领馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050200
+msgid "Foreign Food Restaurant"
+msgstr "外国餐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130200
+msgid "Foreign Organization Related"
+msgstr "外国机构相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170403
+msgid "Forest Farm"
+msgstr "林场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060307
+msgid "Fortress"
+msgstr "丰泽"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035400
+msgid "Foton Truck Repair"
+msgstr "福田卡车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025400
+msgid "Foton Truck Sales"
+msgstr "福田卡车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_100103
+msgid "Four-star Hotel"
+msgstr "四星级宾馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061200
+msgid "Franchise Store"
+msgstr "专营店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150304
+msgid "Freight Ports"
+msgstr "货运港口码头"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150210
+msgid "Freight Railway Station"
+msgstr "货运火车站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050204
+msgid "French Food"
+msgstr "法式菜品餐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170407
+msgid "Fruit Cultivation Base"
+msgstr "水果基地"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060704
+msgid "Fruits Market"
+msgstr "果品市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050110
+msgid "Fujian Food"
+msgstr "福建菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071900
+msgid "Funeral Facilities"
+msgstr "丧葬设施"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071903
+msgid "Funeral House"
+msgstr "殡仪馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060602
+msgid "Furniture Store"
+msgstr "家具城"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030301
+msgid "GAC Honda Repair"
+msgstr "广汽本田维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020201
+msgid "GAC Honda Sales"
+msgstr "广汽本田销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031401
+msgid "GAC Mitsubishi Repair"
+msgstr "广汽三菱维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021301
+msgid "GAC Mitsubishi Sales"
+msgstr "广汽三菱销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031102
+msgid "GAC Toyota Repair"
+msgstr "广汽丰田维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021002
+msgid "GAC Toyota Sales"
+msgstr "广汽丰田销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_033600
+msgid "GAC Trumpchi Repair"
+msgstr "广汽传祺维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_023500
+msgid "GAC Trumpchi Sales"
+msgstr "广汽传祺销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060302
+msgid "GOME"
+msgstr "国美"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080305
+msgid "Game Center"
+msgstr "游戏厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_991000
+msgid "Gate of Buildings"
+msgstr "建筑物门"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_991400
+msgid "Gate of Street House"
+msgstr "临街院门"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032400
+msgid "Geely Repair"
+msgstr "吉利维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022300
+msgid "Geely Sales"
+msgstr "吉利销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030500
+msgid "General Motors Repair"
+msgstr "通用维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020400
+msgid "General Motors Sales"
+msgstr "通用销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050214
+msgid "German Food"
+msgstr "德国菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150206
+msgid "Get a Refund for a Ticket"
+msgstr "退票"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061209
+msgid "Gift Store"
+msgstr "礼品饰品店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060906
+msgid "Golf Accessories Shop"
+msgstr "高尔夫用品店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080201
+msgid "Golf Course"
+msgstr "高尔夫球场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080200
+msgid "Golf Related"
+msgstr "高尔夫相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080202
+msgid "Golf Training Course"
+msgstr "高尔夫练习场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130000
+msgid "Governmental & Social Groups Related"
+msgstr "政府及社会团体相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130100
+msgid "Governmental Organization Related"
+msgstr "政府机关相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_033400
+msgid "Great Wall Repair"
+msgstr "长城汽车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_023300
+msgid "Great Wall Sales"
+msgstr "长城汽车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160151
+msgid "Guangzhou Rural Commercial Bank"
+msgstr "广州农商银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160348
+msgid "Guangzhou Rural Commercial Bank ATM"
+msgstr "广州农商银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190201
+msgid "Gulf and Strait"
+msgstr "海湾海峡"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080111
+msgid "Gym Center"
+msgstr "健身中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160126
+msgid "HSBC"
+msgstr "汇丰银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160323
+msgid "HSBC ATM"
+msgstr "汇丰银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_033200
+msgid "Haima Repair"
+msgstr "海马汽车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_023100
+msgid "Haima Sales"
+msgstr "海马汽车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060603
+msgid "Hardware Store"
+msgstr "建材五金市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090102
+msgid "Health Center"
+msgstr "卫生院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150106
+msgid "Heliport"
+msgstr "直升机场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080400
+msgid "Holiday & Nursing Resort"
+msgstr "度假疗养场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060600
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060601
+msgid "Home Building Materials Market"
+msgstr "家居建材市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060300
+msgid "Home Electronics Hypermarket"
+msgstr "家电电子卖场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030300
+msgid "Honda Repair"
+msgstr "本田维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020200
+msgid "Honda Sales"
+msgstr "本田销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160122
+msgid "Hong Kong Hang Seng Bank"
+msgstr "香港恒生银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160319
+msgid "Hong Kong Hang Seng Bank ATM"
+msgstr "香港恒生银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_033000
+msgid "Hongqi Repair"
+msgstr "红旗维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022900
+msgid "Hongqi Sales"
+msgstr "红旗销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080115
+msgid "Horse Riding Club"
+msgstr "马术俱乐部"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071801
+msgid "Horse-Betting Center"
+msgstr "马会投注站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090100
+msgid "Hospital"
+msgstr "综合医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_100200
+msgid "Hostel"
+msgstr "旅馆招待所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_100100
+msgid "Hotel"
+msgstr "宾馆酒店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050117
+msgid "Hotpot Restaurant"
+msgstr "火锅店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160407
+msgid "Huatai Property Insurance Company Ltd."
+msgstr "华泰财产保险股份有限公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160110
+msgid "Huaxia Bank"
+msgstr "华夏银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160307
+msgid "Huaxia Bank ATM"
+msgstr "华夏银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050112
+msgid "Hubei Food"
+msgstr "湖北菜(鄂菜)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050108
+msgid "Hunan Food"
+msgstr "湖南菜(湘菜)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070607
+msgid "Hutchison Telecommunications"
+msgstr "和记电讯"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031700
+msgid "Hyundai Repair"
+msgstr "现代维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021600
+msgid "Hyundai Sales"
+msgstr "现代销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160105
+msgid "ICBC"
+msgstr "中国工商银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160302
+msgid "ICBC ATM"
+msgstr "中国工商银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050700
+msgid "Icecream Shop"
+msgstr "冷饮店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180104
+msgid "Illegal Parking"
+msgstr "违章停车"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031701
+msgid "Import Hyundai Repair"
+msgstr "进口现代维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021601
+msgid "Import Hyundai Sales"
+msgstr "进口现代销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031801
+msgid "Import KIA Repair"
+msgstr "进口起亚维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021701
+msgid "Import KIA Sales"
+msgstr "进口起亚销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030204
+msgid "Import Volkswagen Repair"
+msgstr "进口大众维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020104
+msgid "Import Volkswagen Sales"
+msgstr "进口大众销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220000
+msgid "Incidents and Events"
+msgstr "事件活动"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050209
+msgid "Indian Food"
+msgstr "印度风味"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140201
+msgid "Indoor Booth"
+msgstr "室内展位"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_970000
+msgid "Indoor facilities"
+msgstr "室内设施"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160118
+msgid "Industrial Bank"
+msgstr "兴业银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160315
+msgid "Industrial Bank ATM"
+msgstr "兴业银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120202
+msgid "Industrial Building"
+msgstr "工业大厦建筑物"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120100
+msgid "Industrial Park"
+msgstr "产业园区"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130700
+msgid "Industrial and Commercial Taxation Institution"
+msgstr "工商税务机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130407
+msgid "Industry Association"
+msgstr "行业协会"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090211
+msgid "Infectious Disease Hospital"
+msgstr "传染病医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030801
+msgid "Infiniti Repair"
+msgstr "英菲尼迪维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020703
+msgid "Infiniti Sales"
+msgstr "英菲尼迪销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070200
+msgid "Information Centre"
+msgstr "信息咨询中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160400
+msgid "Insurance Company"
+msgstr "保险公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080308
+msgid "Internet Bar"
+msgstr "网吧"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050121
+msgid "Islamic Food"
+msgstr "清真菜馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190202
+msgid "Island"
+msgstr "岛屿"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050205
+msgid "Italian Food"
+msgstr "意式菜品餐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060408
+msgid "Ito Yokado"
+msgstr "华堂"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032900
+msgid "JAC Repair"
+msgstr "江淮维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022800
+msgid "JAC Sales"
+msgstr "江淮销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035700
+msgid "JAC Truck Repair"
+msgstr "江淮货车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025700
+msgid "JAC Truck Sales"
+msgstr "江淮货车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032000
+msgid "JAGUAR Repair"
+msgstr "捷豹维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021900
+msgid "JAGUAR Sales"
+msgstr "捷豹销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160138
+msgid "JPMorgan Chase Bank"
+msgstr "摩根大通银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160335
+msgid "JPMorgan Chase Bank ATM"
+msgstr "摩根大通银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050202
+msgid "Japanese Cuisine"
+msgstr "日本料理"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032601
+msgid "Jeep Repair"
+msgstr "吉普维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022501
+msgid "Jeep Sales"
+msgstr "吉普销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061202
+msgid "Jewelry Store"
+msgstr "珠宝首饰工艺品"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050105
+msgid "Jiangsu Food"
+msgstr "江苏菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070800
+msgid "Job Center"
+msgstr "人才市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141104
+msgid "Journal Publisher"
+msgstr "杂志社"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050301
+msgid "KFC"
+msgstr "肯德基"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031800
+msgid "KIA Repair"
+msgstr "起亚维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021700
+msgid "KIA Sales"
+msgstr "起亚销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080302
+msgid "KTV"
+msgstr "KTV"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141204
+msgid "Kindergarten"
+msgstr "幼儿园"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060604
+msgid "Kitchen Supply"
+msgstr "厨卫市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060407
+msgid "LOTTE Mart"
+msgstr "乐天玛特"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190205
+msgid "Lake"
+msgstr "湖泊"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030206
+msgid "Lamborghini Repair"
+msgstr "兰博基尼维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020106
+msgid "Lamborghini Sales"
+msgstr "兰博基尼销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032100
+msgid "Land Rover Repair"
+msgstr "路虎维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022000
+msgid "Land Rover Sales"
+msgstr "路虎销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190600
+msgid "Landmark Buildings"
+msgstr "标志性建筑物"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071500
+msgid "Laundry"
+msgstr "洗衣店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070701
+msgid "Law Firm"
+msgstr "律师事务所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050400
+msgid "Leisure Food Restaurant"
+msgstr "休闲餐饮场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031103
+msgid "Lexus Repair"
+msgstr "雷克萨斯维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021003
+msgid "Lexus Sales"
+msgstr "雷克萨斯销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060901
+msgid "Li-Ning"
+msgstr "李宁专卖店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140500
+msgid "Library"
+msgstr "图书馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150600
+msgid "Light Rail Station"
+msgstr "轻轨站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060606
+msgid "Lighting & Porcelain Market"
+msgstr "灯具瓷器市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031903
+msgid "Lincoln Repair"
+msgstr "林肯维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021803
+msgid "Lincoln Sales"
+msgstr "林肯销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061214
+msgid "Local Products Franchise Store"
+msgstr "土特产专卖店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050118
+msgid "Local Special Food"
+msgstr "特色/地方风味餐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130703
+msgid "Local Tax Authority"
+msgstr "地税机关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070500
+msgid "Logistics Service"
+msgstr "物流速递"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070501
+msgid "Logistics Warehouse Space"
+msgstr "物流仓储场地"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080307
+msgid "Lottery Center"
+msgstr "博彩中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071800
+msgid "Lottery Store"
+msgstr "彩票彩券销售点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060409
+msgid "Lotus"
+msgstr "卜蜂莲花"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_033500
+msgid "Luxgen Repair"
+msgstr "纳智捷维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_023400
+msgid "Luxgen Sales"
+msgstr "纳智捷销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_100101
+msgid "Luxury Hotel"
+msgstr "奢华酒店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_036100
+msgid "MAN Repair"
+msgstr "德国曼恩维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_026100
+msgid "MAN Sales"
+msgstr "德国曼恩销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060406
+msgid "METRO"
+msgstr "麦德龙"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032800
+msgid "MG Repair"
+msgstr "名爵维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022700
+msgid "MG Sales"
+msgstr "名爵销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170204
+msgid "Machinery and Electronics"
+msgstr "机械电子"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_991401
+msgid "Main Entrance of Street House Gate"
+msgstr "临街院正门"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_991001
+msgid "Main Gate of Buildings"
+msgstr "建筑物正门"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_200301
+msgid "Male Toilet"
+msgstr "男洗手间"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060415
+msgid "Mannings"
+msgstr "万宁超市"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220107
+msgid "Marketplace Activities"
+msgstr "商场活动"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031601
+msgid "Maserati Repair"
+msgstr "玛莎拉蒂维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021501
+msgid "Maserati Sales"
+msgstr "玛莎拉蒂销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090209
+msgid "Maternity Hospital"
+msgstr "妇科医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050308
+msgid "Maxim's"
+msgstr "美心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031004
+msgid "Maybach Repair"
+msgstr "迈巴赫维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020904
+msgid "Maybach Sales"
+msgstr "迈巴赫销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031902
+msgid "Mazda Repair"
+msgstr "马自达维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021802
+msgid "Mazda Sales"
+msgstr "马自达销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050302
+msgid "McDonald's"
+msgstr "麦当劳"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141100
+msgid "Media Organization"
+msgstr "传媒机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170203
+msgid "Medical Company"
+msgstr "医药公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090602
+msgid "Medical Supplies"
+msgstr "医疗保健用品"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090000
+msgid "Medical and Health Care Service Place"
+msgstr "医疗保健服务场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090600
+msgid "Medicine Health Care Related"
+msgstr "医药保健相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050207
+msgid "Mediterranean Food"
+msgstr "地中海风格菜品"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110204
+msgid "Memorial Hall"
+msgstr "纪念馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140102
+msgid "Mercedes-Benz Museum"
+msgstr "梅赛德斯-奔驰博物馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031000
+msgid "Mercedes-Benz Repair"
+msgstr "梅赛德斯-奔驰维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020900
+msgid "Mercedes-Benz Sales"
+msgstr "梅赛德斯-奔驰销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_036000
+msgid "Mercedes-Benz Truck Repair"
+msgstr "梅赛德斯-奔驰卡车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_026000
+msgid "Mercedes-Benz Truck Sales"
+msgstr "梅赛德斯-奔驰卡车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031904
+msgid "Mercury Repair"
+msgstr "水星维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021804
+msgid "Mercury Sales"
+msgstr "水星销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050216
+msgid "Mexican Food"
+msgstr "墨西哥菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141202
+msgid "Middle School"
+msgstr "中学"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170209
+msgid "Mining Company"
+msgstr "矿产公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031400
+msgid "Mitsubishi Repair"
+msgstr "三菱维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021300
+msgid "Mitsubishi Sales"
+msgstr "三菱销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010104
+msgid "Mobil"
+msgstr "美孚"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060305
+msgid "Mobile Handsets Sales"
+msgstr "手机销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110207
+msgid "Mosque"
+msgstr "回教寺"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_040200
+msgid "Motorcycle Repair"
+msgstr "摩托车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_040100
+msgid "Motorcycle Sales"
+msgstr "摩托车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_040000
+msgid "Motorcycle Service Related"
+msgstr "摩托车服务相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190306
+msgid "Motorway Interchange"
+msgstr "立交桥"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190203
+msgid "Mountain"
+msgstr "山"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071700
+msgid "Move Service"
+msgstr "搬家公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190103
+msgid "Municipal Place Name"
+msgstr "直辖市级地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140100
+msgid "Museum"
+msgstr "博物馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060902
+msgid "NIKE"
+msgstr "耐克专卖店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190302
+msgid "Name of Intersection"
+msgstr "路口名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190303
+msgid "Name of Roundabout"
+msgstr "环岛名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160141
+msgid "Nanyang Commercial Bank"
+msgstr "南洋商业银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160338
+msgid "Nanyang Commercial Bank ATM"
+msgstr "南洋商业银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080110
+msgid "Natatorium"
+msgstr "游泳馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110202
+msgid "National View Spot"
+msgstr "国家级景点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180202
+msgid "National and Provincial Road Toll Gate"
+msgstr "国省道收费站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220201
+msgid "Natural Disaster"
+msgstr "自然灾害"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190200
+msgid "Natural Place Name"
+msgstr "自然地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170206
+msgid "Network Science and Technology"
+msgstr "网络科技"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160406
+msgid "New China Life Insurance Company"
+msgstr "新华人寿保险公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141103
+msgid "Newspaper Office"
+msgstr "报社"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_200100
+msgid "Newsstand"
+msgstr "报刊亭"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080301
+msgid "Night Club"
+msgstr "夜总会"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030800
+msgid "Nissan Repair"
+msgstr "日产维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020700
+msgid "Nissan Sales"
+msgstr "日产销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130107
+msgid "Non-local Government Representative Office"
+msgstr "外地政府办"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190100
+msgid "Normal Place Name"
+msgstr "普通地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050113
+msgid "Northeastern Chinese Food"
+msgstr "东北菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050115
+msgid "Northwestern Chinese Food"
+msgstr "西北菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130505
+msgid "Notarial Survey Organization"
+msgstr "公证鉴定机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080402
+msgid "Nursing Home"
+msgstr "疗养院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160501
+msgid "Office of Securities Business"
+msgstr "证券营业厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030504
+msgid "Opel Repair"
+msgstr "欧宝维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020404
+msgid "Opel Sales"
+msgstr "欧宝销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220106
+msgid "Operating Activities"
+msgstr "运营活动"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090203
+msgid "Ophthalmology Hospital"
+msgstr "眼科医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061204
+msgid "Optical Shop"
+msgstr "眼镜店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090206
+msgid "Orthopedic Hospital"
+msgstr "骨科医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050217
+msgid "Other Asian Food"
+msgstr "其它亚洲菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010200
+msgid "Other Energy Station"
+msgstr "其它能源站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170400
+msgid "Other Farming，Forestry，Animal Husbandry and Fishery Base"
+msgstr "其它农林牧渔基地"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080108
+msgid "Outdoor Gym Facility"
+msgstr "户外健身场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060907
+msgid "Outdoor Sports Shop"
+msgstr "户外用品"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060414
+msgid "PARKnSHOP"
+msgstr "百佳超市"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070609
+msgid "PCCW"
+msgstr "电讯盈科"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060905
+msgid "PUMA"
+msgstr "彪马专卖店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050503
+msgid "Pacific Coffee Company"
+msgstr "太平洋咖啡"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050504
+msgid "Paris Cafe"
+msgstr "巴黎咖啡店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110101
+msgid "Park"
+msgstr "公园"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110100
+msgid "Park & Square"
+msgstr "公园广场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070306
+msgid "Park Box Office"
+msgstr "公园景点售票处"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150903
+msgid "Park-and-Ride Place"
+msgstr "换乘停车场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150907
+msgid "Parking Lot Entrance"
+msgstr "停车场入口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150909
+msgid "Parking Lot Entrance & Exit"
+msgstr "停车场出入口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150908
+msgid "Parking Lot Exit"
+msgstr "停车场出口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150900
+msgid "Parking Lot Related"
+msgstr "停车场相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_990000
+msgid "Pass Facilities"
+msgstr "通行设施"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150301
+msgid "Passenger Port"
+msgstr "客运港"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170404
+msgid "Pasture"
+msgstr "牧场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070706
+msgid "Patent Office"
+msgstr "专利事务所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061302
+msgid "Pawn House"
+msgstr "典当行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061001
+msgid "Pedestrian Street"
+msgstr "步行街"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061400
+msgid "Personal Care Items Shop"
+msgstr "其它个人用品店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090701
+msgid "Pet Clinic"
+msgstr "宠物诊所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060502
+msgid "Pet Market"
+msgstr "宠物市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061211
+msgid "Pet's Store"
+msgstr "宠物用品店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010102
+msgid "PetroChina"
+msgstr "中国石油"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090601
+msgid "Pharmacy"
+msgstr "药房"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071300
+msgid "Photo Finishing"
+msgstr "摄影冲印"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160117
+msgid "Ping An Bank"
+msgstr "平安银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160314
+msgid "Ping An Bank ATM"
+msgstr "平安银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160403
+msgid "Ping An Insurance Company of China"
+msgstr "中国平安保险公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050303
+msgid "Pizza Hut"
+msgstr "必胜客"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190000
+msgid "Place Name & Address"
+msgstr "地名地址信息"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190401
+msgid "Placename Sign"
+msgstr "地名门牌"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140700
+msgid "Planetarium"
+msgstr "天文馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060500
+msgid "Plants & Pet Market"
+msgstr "花鸟鱼虫市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090201
+msgid "Plastic Surgery"
+msgstr "整形美容"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150204
+msgid "Platform"
+msgstr "站台"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080503
+msgid "Plucking Park"
+msgstr "采摘园"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130501
+msgid "Police Station"
+msgstr "公安警察"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080113
+msgid "Pool Room"
+msgstr "台球厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032200
+msgid "Porsche Repair"
+msgstr "保时捷维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022100
+msgid "Porsche Sales"
+msgstr "保时捷销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150300
+msgid "Port & Marina"
+msgstr "港口码头"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050213
+msgid "Portuguese Food"
+msgstr "葡国菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070400
+msgid "Post Office"
+msgstr "邮局"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160139
+msgid "Postal Savings Bank of China"
+msgstr "中国邮政储蓄银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160336
+msgid "Postal Savings Bank of China ATM"
+msgstr "中国邮政储蓄银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170405
+msgid "Poultry Breeding Base"
+msgstr "家禽养殖基地"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130103
+msgid "Prefecture Level Government and Institution"
+msgstr "地市级政府及事业单位"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190104
+msgid "Prefecture-level Place Name"
+msgstr "地市级地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130502
+msgid "Procuratorate"
+msgstr "检察院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070700
+msgid "Professional Service Firm"
+msgstr "事务所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130102
+msgid "Provincial Level Government and Institution"
+msgstr "省直辖市级政府及事业单位"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190102
+msgid "Provincial Place Name"
+msgstr "省级地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110203
+msgid "Provincial View Spot"
+msgstr "省级景点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090210
+msgid "Psychiatric Hospital"
+msgstr "精神病医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080304
+msgid "Pub"
+msgstr "酒吧"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160148
+msgid "Public Bank (Hong Kong)"
+msgstr "大众银行(香港)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160345
+msgid "Public Bank (Hong Kong) ATM"
+msgstr "大众银行(香港)ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080109
+msgid "Public Beach"
+msgstr "海滨浴场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220100
+msgid "Public Event"
+msgstr "公众活动"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_200000
+msgid "Public Facility"
+msgstr "公共设施"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150904
+msgid "Public Parking Lot"
+msgstr "公共停车场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_200200
+msgid "Public Phone"
+msgstr "公用电话"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150208
+msgid "Public Security Accreditation"
+msgstr "公安制证"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130500
+msgid "Public Security Organization"
+msgstr "公检法机关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220205
+msgid "Public Social Event"
+msgstr "公共社会事件"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_200300
+msgid "Public Toilet"
+msgstr "公共厕所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220204
+msgid "Public Health Event"
+msgstr "公共卫生事件"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141105
+msgid "Publishing House"
+msgstr "出版社"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_039900
+msgid "Qoros Repair"
+msgstr "观致维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_029900
+msgid "Qoros Sales"
+msgstr "观致销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032700
+msgid "ROEWE Repair"
+msgstr "荣威维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022600
+msgid "ROEWE Sales"
+msgstr "荣威销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080116
+msgid "Race Track"
+msgstr "赛马场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141102
+msgid "Radio Station"
+msgstr "电台"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190311
+msgid "Railway"
+msgstr "铁路"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180103
+msgid "Railway Crossing"
+msgstr "铁路道口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150200
+msgid "Railway Station"
+msgstr "火车站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080300
+msgid "Recreation Center"
+msgstr "娱乐场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080500
+msgid "Recreation Place"
+msgstr "休闲场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130405
+msgid "Red Cross"
+msgstr "红十字会"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060904
+msgid "Reebok"
+msgstr "锐步专卖店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030900
+msgid "Renault Repair"
+msgstr "雷诺维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020800
+msgid "Renault Sales"
+msgstr "雷诺销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010901
+msgid "Rent-a-Car Return"
+msgstr "汽车租赁还车"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_071200
+msgid "Repair Store"
+msgstr "维修站点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130202
+msgid "Representative Office of International Organization"
+msgstr "国际组织办事处"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141300
+msgid "Research Institution"
+msgstr "科研机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150905
+msgid "Reserved Parking Lot"
+msgstr "专用停车场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120300
+msgid "Residential Area"
+msgstr "住宅区"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120302
+msgid "Residential Quarter"
+msgstr "住宅小区"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080401
+msgid "Resort"
+msgstr "度假村"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190204
+msgid "River"
+msgstr "河流"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180000
+msgid "Road Furniture"
+msgstr "道路附属设施"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190301
+msgid "Road Name"
+msgstr "道路名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190402
+msgid "Road Name Sign"
+msgstr "道路门牌"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150906
+msgid "Roadside Parking Lot"
+msgstr "路边停车场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030702
+msgid "Rolls-Royce Repair"
+msgstr "劳斯莱斯维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020602
+msgid "Rolls-Royce Sales"
+msgstr "劳斯莱斯销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_200304
+msgid "Room of Mother and Infant"
+msgstr "婴儿换洗间/哺乳室/母婴室"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_151300
+msgid "Ropeway Station"
+msgstr "索道站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080117
+msgid "Rugby Court"
+msgstr "橄榄球场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160121
+msgid "Rural Commercial Bank"
+msgstr "农村商业银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160318
+msgid "Rural Commercial Bank ATM"
+msgstr "农村商业银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050212
+msgid "Russian Food"
+msgstr "俄国菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_036200
+msgid "SCANIA Repair"
+msgstr "斯堪尼亚维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_026200
+msgid "SCANIA Sales"
+msgstr "斯堪尼亚销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035200
+msgid "SINOTRUK Repair"
+msgstr "中国重汽维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025200
+msgid "SINOTRUK Sales"
+msgstr "中国重汽销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030505
+msgid "Saab Repair"
+msgstr "萨博维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020405
+msgid "Saab Sales"
+msgstr "萨博销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050310
+msgid "Saint's Alp Teahouse"
+msgstr "仙跡岩"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061401
+msgid "Sasa"
+msgstr "莎莎"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030507
+msgid "Saturn Repair"
+msgstr "土星维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020407
+msgid "Saturn Sales"
+msgstr "土星销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110200
+msgid "Scenery Spot"
+msgstr "风景名胜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141200
+msgid "School"
+msgstr "学校"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140000
+msgid "Science & Education Cultural Place"
+msgstr "科教文化场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_140600
+msgid "Science & Technology Museum"
+msgstr "科技馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050119
+msgid "Sea Food"
+msgstr "海鲜酒楼"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060706
+msgid "Seafood Market"
+msgstr "水产海鲜市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160500
+msgid "Securities Company"
+msgstr "证券公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150205
+msgid "Sell Ticket"
+msgstr "售票"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070201
+msgid "Service Centre"
+msgstr "服务中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035500
+msgid "Shaanxi Heavy-duty Truck Repair"
+msgstr "陕西重汽维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025500
+msgid "Shaanxi Heavy-duty Truck Sales"
+msgstr "陕西重汽销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050104
+msgid "Shandong Food"
+msgstr "山东菜(鲁菜)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160142
+msgid "Shanghai Commercial Bank"
+msgstr "上海商业银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160339
+msgid "Shanghai Commercial Bank ATM"
+msgstr "上海商业银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050107
+msgid "Shanghai Food"
+msgstr "上海菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060405
+msgid "Shanghai Hualian"
+msgstr "上海华联"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160115
+msgid "Shanghai Pudong Development Bank"
+msgstr "上海浦东发展银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160312
+msgid "Shanghai Pudong Development Bank ATM"
+msgstr "上海浦东发展银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160150
+msgid "Shanghai Rural Commercial Bank"
+msgstr "上海农商银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160347
+msgid "Shanghai Rural Commercial Bank ATM"
+msgstr "上海农商银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030201
+msgid "Shanghai Volkswagen Repair"
+msgstr "上海大众维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020101
+msgid "Shanghai Volkswagen Sales"
+msgstr "上海大众销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010103
+msgid "Shell"
+msgstr "壳牌"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160152
+msgid "Shenzhen Rural Commercial Bank"
+msgstr "深圳农村商业银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160349
+msgid "Shenzhen Rural Commercial Bank ATM"
+msgstr "深圳农村商业银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060101
+msgid "Shopping Centre"
+msgstr "购物中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060100
+msgid "Shopping Plaza"
+msgstr "商场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060000
+msgid "Shopping Related Places"
+msgstr "购物相关场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060102
+msgid "Shops"
+msgstr "普通商场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050102
+msgid "Sichuan Food"
+msgstr "四川菜(川菜)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180500
+msgid "Signpost"
+msgstr "路牌信息"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010101
+msgid "Sinopec"
+msgstr "中国石化"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080107
+msgid "Skating Rink"
+msgstr "溜冰场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080106
+msgid "Ski Field"
+msgstr "滑雪场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030203
+msgid "Skoda Repair"
+msgstr "斯柯达维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020103
+msgid "Skoda Sales"
+msgstr "斯柯达销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060701
+msgid "Small Commodity Market"
+msgstr "小商品市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070608
+msgid "SmarTone"
+msgstr "数码通电讯"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031005
+msgid "Smart Repair"
+msgstr "精灵维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020905
+msgid "Smart Sales"
+msgstr "精灵销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130400
+msgid "Social Group Related"
+msgstr "社会团体相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130506
+msgid "Social Security Organization"
+msgstr "社会治安机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160134
+msgid "Societe Generale Bank"
+msgstr "法国兴业银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160331
+msgid "Societe Generale Bank ATM"
+msgstr "法国兴业银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050203
+msgid "South Korean Cuisine"
+msgstr "韩国料理"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090200
+msgid "Special Hospital"
+msgstr "专科医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061300
+msgid "Special Trade House"
+msgstr "特殊买卖场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180102
+msgid "Speed Sensor"
+msgstr "测速设施"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080000
+msgid "Sports & Recreation Places"
+msgstr "体育休闲服务场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080101
+msgid "Sports Centre"
+msgstr "综合体育馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_220103
+msgid "Sports Event"
+msgstr "体育赛事"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080100
+msgid "Sports Places"
+msgstr "运动场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060900
+msgid "Sports Store"
+msgstr "体育用品店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080114
+msgid "Squash Court"
+msgstr "壁球场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160125
+msgid "Standard Chartered Bank"
+msgstr "渣打银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160322
+msgid "Standard Chartered Bank ATM"
+msgstr "渣打银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050501
+msgid "Starbucks Coffee"
+msgstr "星巴克咖啡"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130101
+msgid "State Level Organization & Institution"
+msgstr "国家级机关及事业单位"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130702
+msgid "State Tax Authority"
+msgstr "国税机关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060800
+msgid "Stationary Store"
+msgstr "文化用品店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050211
+msgid "Steak House"
+msgstr "牛扒店(扒房)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090202
+msgid "Stomatological Hospital"
+msgstr "口腔医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031200
+msgid "Subaru Repair"
+msgstr "斯巴鲁维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021100
+msgid "Subaru Sales"
+msgstr "斯巴鲁销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190107
+msgid "Subdistrict-level Place Name"
+msgstr "街道级地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150500
+msgid "Subway Station"
+msgstr "地铁站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060304
+msgid "Suning"
+msgstr "苏宁"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060308
+msgid "Suning Citicall"
+msgstr "苏宁镭射"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060400
+msgid "Supermarket"
+msgstr "超市"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010110
+msgid "TOTAL"
+msgstr "道达尔"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_010112
+msgid "TOTAL-SINOCHEM"
+msgstr "中化道达尔"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141101
+msgid "TV Station"
+msgstr "电视台"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080112
+msgid "Table Tennis Hall"
+msgstr "乒乓球馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080119
+msgid "Taekwondo Venue"
+msgstr "跆拳道场馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160408
+msgid "Taikang Life Insurance Company"
+msgstr "泰康人寿保险公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050122
+msgid "Taiwan Food"
+msgstr "台湾菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_151100
+msgid "Taxi"
+msgstr "出租车"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050600
+msgid "Tea House"
+msgstr "茶艺馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050305
+msgid "Teahouse"
+msgstr "茶餐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070600
+msgid "Telecom Office"
+msgstr "电讯营业厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170208
+msgid "Telecommunication Company"
+msgstr "电信公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080103
+msgid "Tennis Court"
+msgstr "网球场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050206
+msgid "Thai/Vietnamese Food"
+msgstr "泰国/越南菜品餐厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160103
+msgid "The Export-Import Bank of China"
+msgstr "中国进出口银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150102
+msgid "The Ferry Station"
+msgstr "摆渡车站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160101
+msgid "The People's Bank of China"
+msgstr "中国人民银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160401
+msgid "The People's Insurance Company of China"
+msgstr "中国人民保险公司"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160133
+msgid "The Royal Bank of Scotland"
+msgstr "苏格兰皇家银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160330
+msgid "The Royal Bank of Scotland ATM"
+msgstr "苏格兰皇家银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190700
+msgid "The hot names"
+msgstr "热点地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080603
+msgid "Theatre"
+msgstr "剧场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080600
+msgid "Theatre & Cinema Related"
+msgstr "影剧院相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_100104
+msgid "Three-star Hotel"
+msgstr "三星级宾馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150209
+msgid "Ticket Business Correlation"
+msgstr "票务相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150202
+msgid "Ticket Entrance"
+msgstr "进站口/检票口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070300
+msgid "Ticket Office"
+msgstr "售票处"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061210
+msgid "Tobacco & Wine Franchise Store"
+msgstr "烟酒专卖店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180200
+msgid "Toll Gate"
+msgstr "收费站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110000
+msgid "Tourist Attraction"
+msgstr "旅游景点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150701
+msgid "Tourist Routes Bus Station"
+msgstr "旅游专线车站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130105
+msgid "Town Level Government and Institution"
+msgstr "乡镇级政府及事业单位"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190106
+msgid "Township-level Place Name"
+msgstr "乡镇级地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_031100
+msgid "Toyota Repair"
+msgstr "丰田维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_021000
+msgid "Toyota Sales"
+msgstr "丰田销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050116
+msgid "Traditional Brand"
+msgstr "老字号"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180400
+msgid "Traffic Light"
+msgstr "红绿灯"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130601
+msgid "Traffic Management Authority"
+msgstr "交通管理机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130604
+msgid "Traffic Management Station"
+msgstr "交通执法站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130600
+msgid "Traffic Vehicle Management Related"
+msgstr "交通车辆管理相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070302
+msgid "Train Ticket Office"
+msgstr "火车票代售点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141400
+msgid "Training Institution"
+msgstr "培训机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190300
+msgid "Transportation Place Name"
+msgstr "交通地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150000
+msgid "Transportation Service Related"
+msgstr "交通服务相关"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070100
+msgid "Travel Agency"
+msgstr "旅行社"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130606
+msgid "Truck Related Checkpoints"
+msgstr "货车相关检查站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_035000
+msgid "Truck Repair"
+msgstr "货车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_025000
+msgid "Truck Sales"
+msgstr "货车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090207
+msgid "Tumor Hospital"
+msgstr "肿瘤医院"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190310
+msgid "Tunnel"
+msgstr "隧道"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180203
+msgid "Tunnel & Bridge Toll Gate"
+msgstr "桥洞收费站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050502
+msgid "UBC Coffee"
+msgstr "上岛咖啡"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141201
+msgid "University & College"
+msgstr "高等院校"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190309
+msgid "Urban Expressway Entrance"
+msgstr "城市快速路入口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190308
+msgid "Urban Expressway Exit"
+msgstr "城市快速路出口"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_011000
+msgid "Used Automobile Dealer"
+msgstr "二手车交易"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030506
+msgid "Vauxhall Repair"
+msgstr "沃克斯豪尔维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020406
+msgid "Vauxhall Sales"
+msgstr "沃克斯豪尔销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060705
+msgid "Vegetable Market"
+msgstr "蔬菜市场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_170406
+msgid "Vegetable Planting Base"
+msgstr "蔬菜基地"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050120
+msgid "Vegetarian Food"
+msgstr "中式素菜馆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130603
+msgid "Vehicle Assessment Service"
+msgstr "验车场"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130602
+msgid "Vehicle Management Authority"
+msgstr "车辆管理机构"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130605
+msgid "Vehicle Pass Card Office"
+msgstr "车辆通行证办理处"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090700
+msgid "Veterinary Hospital"
+msgstr "动物医疗场所"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_090702
+msgid "Veterinary Station"
+msgstr "兽医站"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110209
+msgid "View Point"
+msgstr "观景点"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_120301
+msgid "Villa"
+msgstr "别墅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190109
+msgid "Village Team-level Place Name"
+msgstr "村组级地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_190108
+msgid "Village-level Place Name"
+msgstr "村庄级地名"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_991500
+msgid "Virtual Gate"
+msgstr "虚拟门"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_141206
+msgid "Vocational Technical School"
+msgstr "职业技术学校"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030200
+msgid "Volkswagen Repair"
+msgstr "大众维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020100
+msgid "Volkswagen Sales"
+msgstr "大众销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_032401
+msgid "Volvo Cars Repair"
+msgstr "沃尔沃汽车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_022301
+msgid "Volvo Cars Sales"
+msgstr "沃尔沃汽车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_036300
+msgid "Volvo Truck Repair"
+msgstr "沃尔沃卡车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_026300
+msgid "Volvo Truck Sales"
+msgstr "沃尔沃卡车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_033401
+msgid "WEY Repair"
+msgstr "魏派汽车维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_023301
+msgid "WEY Sales"
+msgstr "魏派汽车销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_150201
+msgid "Waiting Room"
+msgstr "候车室"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060402
+msgid "Wal-Mart"
+msgstr "沃尔玛"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_180100
+msgid "Warning Sign"
+msgstr "警示信息"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_061203
+msgid "Watches Shop"
+msgstr "钟表店"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_080505
+msgid "Water Sports Centre"
+msgstr "水上活动中心"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_070900
+msgid "Water Supply Service Office"
+msgstr "自来水营业厅"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060411
+msgid "Watsons"
+msgstr "屈臣氏"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060413
+msgid "Wellcome"
+msgstr "惠康超市"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050201
+msgid "Western Restaurant"
+msgstr "西餐厅(综合风味)"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_200303
+msgid "Wheelchair Accessible"
+msgstr "残障洗手间/无障碍洗手间"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160143
+msgid "Wing Hang Bank"
+msgstr "永亨银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160340
+msgid "Wing Hang Bank ATM"
+msgstr "永亨银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160144
+msgid "Wing Lung Bank"
+msgstr "香港永隆银行"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_160341
+msgid "Wing Lung Bank ATM"
+msgstr "香港永隆银行ATM"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130403
+msgid "Women's Federation"
+msgstr "妇联"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110201
+msgid "World Heritage"
+msgstr "世界遗产"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050311
+msgid "Xiabu Xiabu"
+msgstr "呷哺呷哺"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050304
+msgid "Yon ho"
+msgstr "永和豆浆"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050309
+msgid "Yoshinoya"
+msgstr "吉野家"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_130402
+msgid "Young Pioneer"
+msgstr "少先队"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_100201
+msgid "Youth Hostel"
+msgstr "青年旅舍"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050114
+msgid "Yunnan & Guizhou Food"
+msgstr "云贵菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_050106
+msgid "Zhejiang Food"
+msgstr "浙江菜"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_030803
+msgid "Zhengzhou Nissan Repair"
+msgstr "郑州日产维修"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_020702
+msgid "Zhengzhou Nissan Sales"
+msgstr "郑州日产销售"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_110102
+msgid "Zoo"
+msgstr "动物园"
+
+#. module: base_amap
+#: model:base.amap.poi_category,name:base_amap.amap_poi_060903
+msgid "adidas"
+msgstr "阿迪达斯专卖店"
